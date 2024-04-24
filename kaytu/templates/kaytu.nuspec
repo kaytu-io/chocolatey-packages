@@ -12,7 +12,7 @@
 		<iconUrl>https://rawcdn.githack.com/kaytu-io/chocolatey-packages/master/media/icon.png</iconUrl>
 		<licenseUrl>https://github.com/kaytu-io/kaytu/blob/master/LICENSE</licenseUrl>
 		<projectSourceUrl>https://github.com/kaytu-io/kaytu</projectSourceUrl>
-		<docsUrl>https://docs.kaytu.io/d</docsUrl>
+		<docsUrl>https://docs.kaytu.io/</docsUrl>
 		<bugTrackerUrl>https://github.com/kaytu-io/kaytu/issues</bugTrackerUrl>
     <tags>finops cloud workload optimization iac openstack azure aws cost cost-estimate</tags>
 		<summary>Optimize your cloud workload.</summary>
