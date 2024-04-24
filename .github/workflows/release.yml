@@ -1,0 +1,16 @@
+name: Release
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [kaytu_choco]
+
+jobs:
+  build:
+    name: Release Kaytu choco
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate & push
+        run: kaytu/build.ps1
+        env:
+          CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
